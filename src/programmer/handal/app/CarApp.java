@@ -21,6 +21,7 @@ public class CarApp {
         bus.isMaintenance();
         System.out.println(bus.getTire());
         System.out.println(bus.getBrand());
+        System.out.println("<><><><><><>");
 
     }
 }
