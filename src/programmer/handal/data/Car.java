@@ -46,4 +46,7 @@ todo ((Avanza) car).isMaintenance();
 todo pada kode diatas, sebelumnya tidak ada default, sehingga seluruh class yang mengimplementasikan class tersebut akan rusak, dan mau tidak mau harus di override pada childnya, dan ketika ditambahkan default, maka kode tidak akan error lagi
 
 ? lanjutan bisa dilihat pada bus
+
+? 23 ada di Product
+
 * */
