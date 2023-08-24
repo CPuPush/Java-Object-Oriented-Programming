@@ -27,10 +27,6 @@ final class fb extends SocialMedia{
 * jika sebuah method kita tambahkan kata kunci final, maka artinya method tersebut tidak bisa di override lagi di class chilnya
 * ini sangat cocok jika kita ingin mengunci implementasi dari sebuah method agar tidak bisa diubah lagi oleh class childnya
 
-!28. Inner Class
-* Di java, kita bisa membuat class didalam class, atau disebut dengan inner class
-* salah satu kasus kita membuat inner class biasanya ketika kita butuh membuat beberapa class yang saling terhubung dimana sebuah class tidak bisa dibuat tanpa class lain
-* Misal kita perlu membuat class Employee, dimana membutuhkan class company, maka kita bisa membuat class employee sebagai inner class company
-* cara membuat inner class, cukup membuatnya di dalam block class outer classnya
+? 28 ada di inner Company
 
 */
