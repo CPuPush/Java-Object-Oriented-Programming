@@ -25,6 +25,6 @@ public enum Level {
  * Sama seperti class biasanya, di class enum pun kita bisa menambahkan members (field, method, dan constructor)
  * Khusus constructor, kita tidak bisa membuat public constructor, karena memang tujuan enum bukan untuk di instansiasi secara bebeas
  * ketika dibuat constructor dan getternya maka harus dibuat opsi si enumnya
-? 33 ada di ValidationException
+? 33 ada di error => ValidationException
 
 * */

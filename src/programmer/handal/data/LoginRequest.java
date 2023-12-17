@@ -2,10 +2,9 @@ package programmer.handal.data;
 
 public record LoginRequest(String username, String password) {
     // constructor tanpa tanda ()
-    public LoginRequest{
-        System.out.println("Constructor utama dipanggil");
-    }
-
+//    public LoginRequest{
+//        System.out.println("Constructor utama dipanggil");
+//    }
     public LoginRequest(String username){
         this(username, "");
     }

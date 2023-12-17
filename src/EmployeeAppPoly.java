@@ -7,12 +7,14 @@ public class EmployeeAppPoly {
         employee = new Manager("doni", "okest");
         employee.sayHello("bani");
 
+        Manager manager = new Manager("doni", "test");
+
         employee = new VicePresident("dodak");
         employee.sayHello("bani");
         System.out.println("<><><><>");
-        sayHello(new Employee("Ekost"));
-        sayHello(new Manager("truster"));
-        sayHello(new VicePresident("das"));
+//        sayHello(new Employee("Ekost"));
+//        sayHello(new Manager("truster"));
+//        sayHello(new VicePresident("das"));
     }
 
     static void sayHello(Employee classPol){

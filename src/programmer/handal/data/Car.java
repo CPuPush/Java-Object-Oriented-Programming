@@ -1,5 +1,8 @@
 package programmer.handal.data;
 
+import programmer.handal.annotation.Fancy;
+
+@Fancy(name="dirgo")
 public interface Car extends HasBrand, IsMaintenance{
     void drive();
     int getTire();
